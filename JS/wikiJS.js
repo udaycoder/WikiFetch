@@ -9,7 +9,7 @@ function takeInfo(){
 xhttp.onreadystatechange = function() {
     if (this.readyState == 4 && this.status == 200 ) {
         document.getElementById("outputs").innerHTML =
-        this.responseText.replace(/<img[^>]*>/g,"");
+        this.responseText;
    }
    if(this.readyState == 4 && this.status == 0 ){
      document.getElementById("outputs").innerHTML ="<h2>Error Detected</h2>"
