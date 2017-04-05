@@ -1,4 +1,4 @@
-@media screen and (min-width: 600px){
+@media screen and (min-width: 801px){
   #hamburger{
     display: none;
   }
@@ -19,7 +19,7 @@
   padding:1 1 1 1;
 }
 
-@media screen and (max-width: 599px){
+@media screen and (max-width: 800px){
   #innerinputs{
     background-color: white;
     display:none;
