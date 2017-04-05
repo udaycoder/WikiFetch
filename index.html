@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <title>Wikipedia</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="CSS/wikiCSS.css">
+  <script src="JS/wikiJS.js"></script>
+</head>
+
+<body>
+  <div id="inputs">
+  <a href="javascript:void(0);" id="hamburger" onclick="hambg('innerinputs',id);"><img src="CSS/hamburger-icon.png" style="height:40px;width:40px;"></a>
+  <br>
+  <div id="innerinputs">
+  <input type="text" id="SearchQuery">
+  <br><br>
+  <select id="languageSelector" active="English">
+    <option value="en">English</option>
+    <option value="bn">বাংলা</option>
+    <option value="hi">हिन्दी</option>
+    <option value="ur">اردو</option>
+    <option value="fr">Français</option>
+    <option value="ja">日本語</option>
+    <option value="zh">中文</option>
+    <option value="ta">தமிழ்</option>
+    <option value="es">Español</option>
+    <option value="ru">Русский</option>
+  </select>
+  <br><br>
+  <button id="fetch" onclick="takeInfo()">Fetch</button>
+</div>
+</div>
+
+<div id="outputs">
+
+</div>
+</body>
+
+</html>

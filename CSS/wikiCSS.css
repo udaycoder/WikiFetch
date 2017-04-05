@@ -1,0 +1,36 @@
+@media screen and (min-width: 480px){
+  #hamburger{
+    display: none;
+  }
+}
+#inputs{
+  width:30%;
+  background-color: #bfbfbf;
+  float:left;
+  height:100%;
+  padding:1 1 1 1;
+}
+
+#outputs{
+  width:70%;
+  background-color: #ffe680;
+  float:left;
+  height:100%;
+  padding:1 1 1 1;
+}
+
+@media screen and (max-width: 480px){
+  #innerinputs{
+    background-color: white;
+    display:none;
+  }
+  #inputs{
+    background-color: white;
+  }
+  #SearchQuery{
+    width:80%;
+  }
+  #outputs{
+    background-color: white;
+  }
+}
